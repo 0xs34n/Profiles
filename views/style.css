@@ -1,0 +1,31 @@
+@font-face {
+	font-family: 'Avenir Next';
+	src: url('/AvenirNext-Bold.eot');
+	src: url('/AvenirNext-Bold.eot?#iefix') format('embedded-opentype'),
+		url('/AvenirNext-Bold.woff') format('woff'),
+		url('/AvenirNext-Bold.ttf')  format('truetype');
+	font-style: normal;
+}
+
+#front-page-header {
+	font-size: 14vw;
+	text-align: center;
+	font-weight: 700;
+	letter-spacing: -0.06em;
+	color: #333;
+}
+
+.btn-group {
+	width: 48vw;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#nav-text {
+	font-weight: 700;
+	color: #333;
+}
+
+body {
+	font-family: Avenir Next;
+}

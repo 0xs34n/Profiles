@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--Netbeans favicon-->
+  <link rel="shortcut icon" href="">
+
+  <!-- Boostrap compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css"> 
+
+  <!--jQuery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+  <!-- Bootstrap compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+
+  <!--AJAX Calls-->
+  <script type='text/javascript' src='ajax.js'></script>
+
+  <!-- IP Address & Location -->
+  <script language="JavaScript" src="http://www.geoplugin.net/javascript.gp" type="text/javascript"></script>
+
+
+</head>
+
+<body>
+
+  <!-- BOOTSTRAP NAVIGATION -->
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <!-- Responsive icon -->
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" onclick="loadHome()" style="cursor:pointer"><div id="nav-text"><span style="color:#c80909">Pro</span>files.</div></a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+        </ul>
+        <!-- Nav right -->
+        <ul class="nav navbar-nav navbar-right">
+          <li><img id ="nav-img"src="" style="cursor:pointer;" onclick=""></li>
+          <li><a onclick="" id="user-nav" style="cursor:pointer;"></a></li>
+          <li id='logout-nav'></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+  
+  <!-- CONTENT -->
+  <div id="content">
+    
+    <div class="jumbotron">
+      <div class="container">
+          <h1 id="front-page-header"><span style="color:#c80909">Pro</span>files.</h1>
+        <div class="btn-group btn-group-justified" role="group" aria-label="">
+            <div class="btn-group" role="group">
+              <button type="button" class="btn btn-default" onclick="loadLogin()">Login</button>
+            </div>
+            <div class="btn-group" role="group">
+              <button type="button" class="btn btn-default" onclick="loadRegister()">Register</button>
+            </div>
+        </div>
+      </div>
+    </div> 
+    
+  </div> 
+  <!--<script>loadSystem();</script>-->
+  <!--
+  <script>
+  loadUserView("seanhan95@gmail.com");
+  </script>-->
+  <!--
+  <script>
+    loadEditProfile();
+  </script>-->
+
+</body>
